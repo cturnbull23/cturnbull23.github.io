@@ -1,3 +1,19 @@
+body {
+    background-color: #FAF6F9
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000000;
+        color: white;
+    }
+    
+    img {
+        opacity: .75;
+        transition: opacity .5s ease-in-out;
+    }
+}
+
 /* hero background image */
 .bgimage {
     height: 100vh;
@@ -87,7 +103,7 @@
 
 /* footer styling */
 #footer {
-    background-color: slategray;
+    background-color: black;
     text-align: center;
 }
 
@@ -97,6 +113,6 @@
     padding-top: 4em;
 } */
 
-/* #about, #resume {
-    margin-bottom: 2em;
-} */
+#about {
+    margin-top: 2em;
+} 
