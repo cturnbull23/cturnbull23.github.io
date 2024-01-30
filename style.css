@@ -81,7 +81,7 @@
     margin-bottom: 2em;
 }
 
-#works ul {
-	text-align: center;
-	list-style-position: inside;
+#works {
+    text-align: center;
+    list-style-position: inside;
 }
