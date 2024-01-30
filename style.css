@@ -9,10 +9,20 @@
 /* text css above hero image */
 .hero_title {
     font-size: 4.5rem;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
 }
 
 .hero_desc {
     font-size: 2rem;
+    text-shadow:
+        -0.5px -0.5px 0 #000,
+        0.5px -0.5px 0 #000,
+        -0.5px 0.5px 0 #000,
+        0.5px 0.5px 0 #000;
 }
 
 .hero-text {
@@ -24,6 +34,7 @@
     color: white;
 }
 
+/* Navbar hover */
 .navbar a {
     color: white;
 }
@@ -37,14 +48,14 @@
     width: 100%;
 }
 
-/* display background color black on navbar scrroll */
+/* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: black;
 }
 
-/* Resume css*/
-#resume {
-    text-align: center;
+/* Resume and Professional Works CSS */
+#resume, #works {
+    list-style-position: inside;
 }
 
 /* social media icons styling */
@@ -54,15 +65,24 @@
 }
 
 .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover {
-    color: darkblue;
+    color: white;
 }
 
 .fa-github:hover, .fa-envelope:hover {
-    color: darkblue;
+    color: white;
 }
 
 .fa, .fab {
-    color: black;
+    color: lightskyblue;
+}
+
+.social_bg {
+    background: rgba(25,25,25,1);
+    max-width: 100%;
+    width: 250px;
+    display: inline-block;
+    border-radius: 25px;
+
 }
 
 /* footer styling */
@@ -80,8 +100,3 @@
 /* #about, #resume {
     margin-bottom: 2em;
 } */
-
-#works {
-    text-align: center;
-    list-style-position: inside;
-}
