@@ -72,14 +72,14 @@
 }
 
 /* spacing on all sections */
-#services, #portfolio, #contact {
+/* #services, #portfolio, #contact {
     margin-top: 4em;
     padding-top: 4em;
-}
+} */
 
-#about, #resume {
+/* #about, #resume {
     margin-bottom: 2em;
-}
+} */
 
 #works {
     text-align: center;
