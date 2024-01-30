@@ -80,3 +80,8 @@
 #about, #resume {
     margin-bottom: 2em;
 }
+
+section ul {
+	text-align: center;
+	list-style-position: inside;
+}
