@@ -2,6 +2,11 @@ body {
     background-color: #FAF6F9
 }
 
+#main-body {
+    height: 100vh;
+    color: white;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #000000;
